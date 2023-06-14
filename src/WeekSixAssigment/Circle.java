@@ -1,7 +1,7 @@
 package WeekSixAssigment;
 
 public class Circle {
-    private static final double pi = Math.PI;
+    private static final double PI = Math.PI;
     private int radius;
 
     public Circle(int radiusInput) {
@@ -9,11 +9,11 @@ public class Circle {
     }
 
     public double area() {
-        return pi * (radius * radius);
+        return PI * (radius * radius);
     }
 
     public double circumference() {
-        return 2 * radius * pi;
+        return 2 * radius * PI;
     }
 
 
