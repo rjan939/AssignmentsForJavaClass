@@ -1,8 +1,8 @@
 package WeekSixAssigment;
 
 public class Circle {
-    private final double pi = Math.PI;
-    private final int radius;
+    private double pi = Math.PI;
+    private int radius;
 
     public Circle(int radiusInput) {
         this.radius = radiusInput;
